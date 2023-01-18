@@ -53,6 +53,7 @@ const Navbar = () => {
     const OTP = Math.floor(Math.random()*10000)
 
     const handleSubmit = () => {
+      setNum("");
       setTimeout(() => {
         alert(`Your One Time Password is: ${OTP}`)
       })
@@ -65,6 +66,10 @@ const Navbar = () => {
     return alert("Successfully Logged in")  
    }
   
+   const Logout = () => {
+    LogoutHnadle();
+    setShowOtp(true);
+   }
  
 
     const Alert = () => {
@@ -157,9 +162,9 @@ const Navbar = () => {
         My Account
       </MenuButton>
       <MenuList>
-        <Link><MenuItem>My Orders</MenuItem></Link>
+        <Link to="/cart"><MenuItem>My Orders</MenuItem></Link>
         <MenuItem>My Address</MenuItem>
-        <MenuItem onClick={LogoutHnadle} >SignOut</MenuItem>
+        <MenuItem onClick={Logout} >SignOut</MenuItem>
       </MenuList>
     </>
   )}
@@ -184,7 +189,6 @@ const Navbar = () => {
             <Box style={{
               width:"40%",
               height:"500px",
-              border:"2px solid black",
               display:"flex",
               flexDirection:"column",
               alignItems:"center",
@@ -234,7 +238,6 @@ const Navbar = () => {
             <Box style={{
                width:"53%",
                height:"400px",
-               border:"2px solid black",
                display:"flex",
                flexDirection:"column",
                alignItems:"left",
@@ -336,6 +339,7 @@ const Navbar = () => {
       </div>
       </div>
     </div>
+ 
       </div>
       </>
   )
