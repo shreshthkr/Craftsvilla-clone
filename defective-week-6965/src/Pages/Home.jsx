@@ -1,11 +1,20 @@
-import { Heading,SimpleGrid,Box,Image } from '@chakra-ui/react';
+import { Heading,SimpleGrid,Box,Image} from '@chakra-ui/react';
 import React from 'react'
 import { Link } from 'react-router-dom';
+import Caraousel from '../Components/Navbar/Caraousel';
+import Footer from '../Components/Navbar/Footer';
+
 
 
 
 const Home = () => {
+   
+ 
+
+
+
   return (
+    <>
     <div>
     <div className='Category'
      style={{
@@ -66,8 +75,57 @@ const Home = () => {
 </SimpleGrid>
         </div>
     </div>
-    </div>
 
+    </div>
+       <div className='Carausel'>
+   
+     <Caraousel />
+        
+       </div>
+
+   <SimpleGrid className='support'
+   w="100%"
+   m="auto"
+   mt="110px"
+   height="auto"
+   p="10"
+   bgColor="black"
+   alignitems="center"
+   
+   columns={{sm:null, md:3, lg:5}}>
+
+      <Image ml="40px"  w="250px" h="120px" src="https://cdn.plotch.io/image/upload/C/V/1660916598_MS5wbmc=.png" />
+      <Image ml="40px"  w="250px" h="120px" src="https://cdn.plotch.io/image/upload/C/V/1660916607_Mi5wbmc=.png" />
+      <Image ml="40px"  w="250px" h="120px" src="https://cdn.plotch.io/image/upload/C/V/1660916612_My5wbmc=.png" />
+      <Image ml="40px"  w="250px" h="120px" src="https://cdn.plotch.io/image/upload/C/V/1660916617_NC5wbmc=.png" />
+      <Image ml="40px" w="250px" h="120px" src="https://cdn.plotch.io/image/upload/C/V/1660916629_NS5wbmc=.png" />
+   </SimpleGrid>
+    <br />
+    <br />
+      <Box mt={{sm:220, md:220, lg:160}} style={{
+        width:"80%",
+        height:"auto",
+        margin:"auto",
+      }}>
+        <SimpleGrid
+        spacing="10"
+         columns={{sm:1, md:2, lg:2}}>
+            <Box><Image src="https://cdn.plotch.io/image/upload/C/V/1671110234_SG9tZWRlY29yLnBuZw==.png" w="50" /></Box>
+            <Box><Image src="https://cdn.plotch.io/image/upload/C/V/1671110241_NS5wbmc=.png" /></Box>
+            <Box><Image src="https://cdn.plotch.io/image/upload/C/V/1671110248_Ni5wbmc=.png" /></Box>
+            <Box><Image src="https://cdn.plotch.io/image/upload/C/V/1671110264_My5wbmc=.png" /></Box>
+        </SimpleGrid>
+      </Box>
+  <Box mt={{sm:220, md:220, lg:160}}>
+    <Footer />
+  </Box>
+  <Box>
+      <br />
+      <br />
+      <br />
+      <br />
+      </Box>
+    </>
   )
 }
 
