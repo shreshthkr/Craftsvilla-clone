@@ -97,31 +97,31 @@ const Navbar = () => {
       }}
       >
       <div className='logo'>
-        <img width="190px" src="https://img.plotch.store/assets/MTY2MjQ1MDUwM181MjA1.png" alt="craftsvilla_logo" />
+        <img width="180px" src="https://img.plotch.store/assets/MTY2MjQ1MDUwM181MjA1.png" alt="craftsvilla_logo" />
       </div>
       
       <div className='input-tag'
       style={{
         
         width:"570px",
-        height:"85%",
+        height:"70%",
         display:"flex",
         justifyContent:"space-between",
         alignItems:"center",
-        marginLeft:"-75px"
+        marginLeft:"15px"
       }}
       >
       <Stack spacing={4} w='90%'>
   <InputGroup>
-    <InputLeftAddon children='SEARCH' h='62px' w='90px'  />
-    <Input type='text' placeholder='Search' bgColor="rgb(237,242,247)"  h='62px' />
-      <InputRightAddon children={<SearchIcon />} h='62px'  />
+    <InputLeftAddon children='SEARCH' h='45px' w='90px'  />
+    <Input type='text' placeholder='Search' bgColor="rgb(237,242,247)"  h='45px' />
+      <InputRightAddon children={<SearchIcon />} h='45px'  />
   </InputGroup>
 
   
 </Stack>
 <div>
-<IoLocationSharp size="2rem" />
+<IoLocationSharp size="1.5rem" />
 </div>
 
       </div>
@@ -143,10 +143,10 @@ const Navbar = () => {
       cursor:"pointer",
     }}>
       <div>
-    <FaUser size="1.5rem"/>
+    <FaUser size="1rem"/>
     </div>
 
-  <Text onClick={onOpen} fontSize="20px" >
+  <Text onClick={onOpen} fontSize="15px" >
           
    Sign In/Register
   </Text>
@@ -318,8 +318,16 @@ const Navbar = () => {
       alignItems:"center",
       gap:"10px",
     }}>
-        <div><BsHeart size="1.5rem" /></div>
-        <div><Text fontSize="20px">WishList</Text></div>
+        <div><Link to="/wishlist">
+        <BsHeart size="1.2rem" />
+        </Link>
+        </div>
+        <div>
+          <Link to="/wishlist">
+
+          <Text fontSize="18px">WishList</Text>
+          </Link>
+          </div>
         |
         
       </div>
@@ -332,10 +340,14 @@ const Navbar = () => {
       gap:"10px",
     }}>
         <div>
-        <ImCart size="1.5rem" />
+        <Link to="/cart">
+        <ImCart size="1.2rem" />
+        </Link>
         </div>
       <div>
-      <Text fontSize="20px">Cart</Text>
+        <Link to="/cart">
+      <Text fontSize="18px">Cart</Text>
+        </Link>
       </div>
       </div>
     </div>

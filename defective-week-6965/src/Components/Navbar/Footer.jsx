@@ -42,7 +42,8 @@ export default function Footer() {
   return (
     <Box
       bg={useColorModeValue("rgb(144,39,53)")}
-      color={useColorModeValue("white")}>
+      color={useColorModeValue("white")}
+      height="auto">
       <Box as={Stack} maxW={'6xl'} py={10} m="auto" h='500px'>
         <SimpleGrid
           templateColumns={{ sm: '1fr 1fr', md: '2fr 1fr 1fr 1fr 1fr' }}
@@ -87,8 +88,7 @@ export default function Footer() {
             <Link href={'#'}>Return & Refund</Link>
             <Link href={'#'}>LinkedIn</Link>
             <br/>
-            <br/>
-            <br/>
+            
             <ListHeader>SUPPORT</ListHeader>
             <Text>For Help, send an email to customercare@craftsvilla.com</Text>
           </Stack>
