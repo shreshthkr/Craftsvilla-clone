@@ -3,7 +3,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Caraousel from '../Components/Navbar/Caraousel';
 import Footer from '../Components/Navbar/Footer';
-
+import SelectPage from '../Components/Navbar/SelectPage';
 
 
 
@@ -16,31 +16,9 @@ const Home = () => {
   return (
     <>
     <div>
-    <div className='Category'
-     style={{
-        width:"100%",
-        height:"70px",
-        display:"flex",
-        alignItems:"center",
-        justifyContent:"center",
-        gap:"15px",
-        backgroundColor:"rgb(144,39,53)"
-
-     }}
-    >
-     <div><Link to="/home-decor" ><h1 style={{
-        color:"white",
-        fontSize:"25px",
-        fontWeight:"700",
-        fontFamily:"Merriweather"
-     }}>Home Decor</h1></Link>  </div>
-     <div><Link to="/products-near-me"><h1 style={{
-        color:"white",
-        fontSize:"25px",
-        fontWeight:"700",
-        fontFamily:"Merriweather"
-     }}>Products Near Me</h1></Link></div>   
-    </div>
+    <Box>
+        <SelectPage />
+    </Box>
     <div className='ShopByCategory' style={{
         width:"100%",
         height:"auto",
@@ -77,16 +55,21 @@ const Home = () => {
     </div>
 
     </div>
-       <div className='Carausel'>
+       <Box className='Carausel' style={{
+        width:"100%",
+        height:"500px",
+        marginTop:"150px",
+        marginBottom:"40px"
+       }}>
    
      <Caraousel />
         
-       </div>
+       </Box>
 
    <SimpleGrid className='support'
    w="100%"
    m="auto"
-   mt="110px"
+   mt={{sm:10, md:40,lg:50}}
    height="auto"
    p="10"
    bgColor="black"
@@ -116,7 +99,7 @@ const Home = () => {
             <Box><Image src="https://cdn.plotch.io/image/upload/C/V/1671110264_My5wbmc=.png" /></Box>
         </SimpleGrid>
       </Box>
-  <Box mt={{sm:220, md:220, lg:160}}>
+  <Box mt={{sm:220, md:220, lg:160}} h="auto">
     <Footer />
   </Box>
   <Box>

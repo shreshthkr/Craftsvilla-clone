@@ -1,0 +1,388 @@
+{
+	"home-decor": [
+		{
+			"id":1,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOxhnCp801674143435_aeadb13cae8b0daaea20e70d344de7d952cc175ac9a12951232fd9b8345ab883.jpg",
+			"title": "Revluk Anti Hair Loss Hair Oil 100ML for Hair Growth & Hair Fall Control",
+			"productprice": "₹ 225",
+			"regularprice": "₹ 250",
+			"discountdetails": "10% Off"
+		},
+		{
+			"id":2,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOBjyrJo11674143435_5928928b245b7a6d9f5e90476c1a093f5a438f98f475d83d3c94ac28e1d20ed3.png",
+			"title": "Miniature accessories / toys (any design and color)",
+			"productprice": "₹ 25",
+			"regularprice": "",
+			"discountdetails": ""
+		},
+		{
+			"id":3,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOsgZIXeA1674143435_5928928b245b7a6d9f5e90476c1a093f5a438f98f475d83d3c94ac28e1d20ed3.png",
+			"title": "Set of 2 - Miniature accessories / toys (any design and color)",
+			"productprice": "₹ 49",
+			"regularprice": "",
+			"discountdetails": ""
+		},
+		{
+			"id":4,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOhaN5S3m1657284382_df318ae4da705f4f5c6ea3a744f0d7dae54d9d4761179687e59ef06f52c9b8ef.jpg",
+			"title": "Set of 3 - Miniature accessories / toys (any design and color)",
+			"productprice": "₹ 79",
+			"regularprice": "",
+			"discountdetails": ""
+		},
+		{
+			"id":5,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOPPOeTg41674143430_302072f7cad7dbb6d3b45f9d46274031cd2a81fc5e9c4d6b5d07b6211d0714d0.jpg",
+			"title": "5.5X6 Inch Beige Black ring Matka Ceramic Planter",
+			"productprice": "₹ 169",
+			"regularprice": "₹ 260",
+			"discountdetails": "35% Off"
+		},
+		{
+			"id":6,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLO8YXr9PH1674143430_c75d3f1f5bcd6914d0331ce5ec17c0db8f2070a2d4285f8e3ff11c6ca19168ff.jpg",
+			"title": "4X6 Inch Orange Ringed Edge Cylindrical Ceramic Planter",
+			"productprice": "₹ 135",
+			"regularprice": "₹ 219",
+			"discountdetails": "39% Off"
+		},
+		{
+			"id":7,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOg69W45l1674143431_1e472b39b105d349bcd069c4a711b44a2fffb8e274714bb07ecfff69a9a7f67b.jpg",
+			"title": "4X6 Inch White Ringed Edge Cylindrical Ceramic Planter",
+			"productprice": "₹ 135",
+			"regularprice": "₹ 219",
+			"discountdetails": "39% Off"
+		},
+		{
+			"id":8,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOvqz8IAS1674143430_c10ff25591d28fecf91fcfd7f5fe32618ae1d37178ded83a270b69061f394e3b.jpg",
+			"title": "7X8 Inch Brown ring designed Matka Ceramic Planter",
+			"productprice": "₹ 529",
+			"regularprice": "₹ 800",
+			"discountdetails": "34% Off"
+		},
+		{
+			"id":9,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLO7XgPeaA1674143433_535fa30d7e25dd8a49f1536779734ec8286108d115da5045d77f3b4185d8f790.jpg",
+			"title": "Set of 2 - 7 Inch, 5 inch Green Ring Ceramic Planters",
+			"productprice": "₹ 379",
+			"regularprice": "₹ 570",
+			"discountdetails": "34% Off"
+		},
+		{
+			"id":10,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOcDLRSi41674143432_71ee45a3c0db9a9865f7313dd3372cf60dca6479d46261f3542eb9346e4a04d6.jpg",
+			"title": "Areca palm (~4.5 feet) in 13 inch Ring Fiberglass planter",
+			"productprice": "₹ 1619",
+			"regularprice": "",
+			"discountdetails": ""
+		},
+		{
+			"id":11,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOeJhezlp1674143432_12b958a5b50953991ee0a2afb5776ca390603796ccdb2bc758a3b9dcacd62e1d.jpg",
+			"title": "7X8 Inch Beige Black ring designed Matka Ceramic Planter",
+			"productprice": "₹ 529",
+			"regularprice": "₹ 800",
+			"discountdetails": "34% Off"
+		},
+		{
+			"id":12,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOvrtgQ3H1674143432_9f14025af0065b30e47e23ebb3b491d39ae8ed17d33739e5ff3827ffb3634953.jpg",
+			"title": "6X8 Inch Brown Black Ring Designed Matka Ceramic Planter",
+			"productprice": "₹ 269",
+			"regularprice": "₹ 410",
+			"discountdetails": "35% Off"
+		},
+		{
+			"id":13,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOZXrzGgd1674143432_eb1e33e8a81b697b75855af6bfcdbcbf7cbbde9f94962ceaec1ed8af21f5a50f.jpg",
+			"title": "7X8 Inch Pink Black ring designed Matka Ceramic Planter",
+			"productprice": "₹ 529",
+			"regularprice": "₹ 800",
+			"discountdetails": "34% Off"
+		},
+		{
+			"id":14,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOb1PHjtJ1674143434_f5ca38f748a1d6eaf726b8a42fb575c3c71f1864a8143301782de13da2d9202b.jpg",
+			"title": "Set of 2 - 7 Inch, 5 inch Yellow Ring Ceramic Planters",
+			"productprice": "₹ 379",
+			"regularprice": "₹ 570",
+			"discountdetails": "34% Off"
+		},
+		{
+			"id":15,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOcAfKir91674143432_9f484139a27415ae2e8612bf6c65a8101a18eb5e9b7809e74ca63a45a65f17f4.jpg",
+			"title": "4X6 Inch Green Ringed Edge Cylindrical Ceramic Planter",
+			"productprice": "₹ 135",
+			"regularprice": "₹ 219",
+			"discountdetails": "39% Off"
+		},
+		{
+			"id":16,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOz5eIaF61674143432_0b918943df0962bc7a1824c0555a389347b4febdc7cf9d1254406d80ce44e3f9.jpg",
+			"title": "10X8 Inch Yellow Black Ring Designed Matka Ceramic Planter",
+			"productprice": "₹ 389",
+			"regularprice": "₹ 590",
+			"discountdetails": "35% Off"
+		},
+		{
+			"id":17,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOwsmZK3E1674143432_8e7ddd6d5975a8997515e193935985acfa7d45848a5c42565e7584f078981bd4.jpg",
+			"title": "10X8 Inch Beige Black Ring Designed Matka Ceramic Planter",
+			"productprice": "₹ 389",
+			"regularprice": "₹ 590",
+			"discountdetails": "35% Off"
+		},
+		{
+			"id":18,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOyX1KFW71674143432_81bccc46e38a5ee3c2f93bee8245e241ffb0392434c8bef8694f21cfba99f687.jpg",
+			"title": "6X8 Inch White Black Ring Designed Matka Ceramic Planter",
+			"productprice": "₹ 269",
+			"regularprice": "₹ 410",
+			"discountdetails": "35% Off"
+		},
+		{
+			"id":19,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOxaZtxQR1674143432_39c12eaa5f0737cd2c554a41eb6a01e34120385749134b81e73bc00a4a1ca8d4.jpg",
+			"title": "7X8 Inch White Brown ring designed Matka Ceramic Planter",
+			"productprice": "₹ 529",
+			"regularprice": "₹ 800",
+			"discountdetails": "34% Off"
+		},
+		{
+			"id":20,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOe4tRwqV1674143430_0b709e52cd5e0c009f612a6b9dd556af08cf97ca6d0845f9c4b7c262725cb831.jpg",
+			"title": "12X8 Inch Metal Green Ring Pipe Ceramic Planter",
+			"productprice": "₹ 589",
+			"regularprice": "₹ 599",
+			"discountdetails": "2% Off"
+		},
+		{
+			"id":21,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOzKSgZN91674143430_e993aebcc03ae9567d348a5bddd74eead5d8a9f5cfbd057d4caad14987bcb9d6.jpg",
+			"title": "5.5X6 Inch Green Black ring Matka Ceramic Planter",
+			"productprice": "₹ 169",
+			"regularprice": "₹ 260",
+			"discountdetails": "35% Off"
+		},
+		{
+			"id":22,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLON99FMud1674143430_1a6562590ef19d1045d06c4055742d38288e9e6dcd71ccde5cee80f1d5a774eb.jpg",
+			"title": "Lucky Ring Bamboo in 3 Inch Transparent Pot",
+			"productprice": "₹ 649",
+			"regularprice": "₹ 1429",
+			"discountdetails": "55% Off"
+		},
+		{
+			"id":23,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOkQLtM0H1674143430_3974596fe87de6c7556b6bda40af3545895313365c1c96ea4bf0a6b0bf7a89a1.jpg",
+			"title": "12X8 Inch White Ring Pipe Ceramic Planter",
+			"productprice": "₹ 589",
+			"regularprice": "₹ 599",
+			"discountdetails": "2% Off"
+		},
+		{
+			"id":24,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOjuK4L581674143429_0fafff921c563689d03b0f84e8d20e557774e824fb43f88ccc58ea8a45868c99.jpg",
+			"title": "Ringo Fiberglass Planter-White-7 Inches",
+			"productprice": "₹ 490",
+			"regularprice": "₹ 560",
+			"discountdetails": "13% Off"
+		},
+		{
+			"id":25,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLODpQLI5b1674143430_b7a56873cd771f2c446d369b649430b65a756ba278ff97ec81bb6f55b2e73569.jpg",
+			"title": "5 inch White Ring Ceramic Planter",
+			"productprice": "₹ 135",
+			"regularprice": "₹ 219",
+			"discountdetails": "39% Off"
+		},
+		{
+			"id":26,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOELHTr5Y1674143417_18ef5756d2dd645581ff084e02d458efac908b69ab292fec880d531fce7c2eb6.jpg",
+			"title": "Round Brinjal-Eggplant - Excellent Germination",
+			"productprice": "₹ 59",
+			"regularprice": "₹ 69",
+			"discountdetails": "15% Off"
+		},
+		{
+			"id":27,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOtdzpwmT1674143319_9f14025af0065b30e47e23ebb3b491d39ae8ed17d33739e5ff3827ffb3634953.jpg",
+			"title": "Madhukamini Topiary in Cement Bowl",
+			"productprice": "₹ 899",
+			"regularprice": "₹ 1979",
+			"discountdetails": "55% Off"
+		},
+		{
+			"id":28,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOs32Oc1f1674143320_e5b861a6d8a966dfca7e7341cd3eb6be9901688d547a72ebed0b1f5e14f3d08d.jpg",
+			"title": "8 Inch White Cement Bowl",
+			"productprice": "₹ 139",
+			"regularprice": "₹ 278",
+			"discountdetails": "50% Off"
+		},
+		{
+			"id":29,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOgfsDxPo1674143316_605434726cdc1b47aa172cee8648c7743f01e982ed9cc5b65681ebd538cdd67f.jpg",
+			"title": "6 inch Terracotta Bowl Planter",
+			"productprice": "₹ 119",
+			"regularprice": "₹ 240",
+			"discountdetails": "51% Off"
+		},
+		{
+			"id":30,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLONUQAHuG1674143318_fb059d04447c2ad549f26ace5b242489612e311befe9d445935846d9df0dfe3d.jpg",
+			"title": "Set of 4 - 6 inch Terracotta Bowl Planter",
+			"productprice": "₹ 479",
+			"regularprice": "",
+			"discountdetails": ""
+		},
+		{
+			"id":31,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOvfddEHV1674143314_e629fa6598d732768f7c726b4b621285f9c3b85303900aa912017db7617d8bdb.jpg",
+			"title": "Set of 2 - 4 Inch Black Glasscoated Matki & Bowl Designer Ceramic Pot",
+			"productprice": "₹ 299",
+			"regularprice": "₹ 689",
+			"discountdetails": "57% Off"
+		},
+		{
+			"id":32,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOQUMXxe01674143314_785f3ec7eb32f30b90cd0fcf3657d388b5ff4297f2f9716ff66e9b69c05ddd09.jpg",
+			"title": "Set of 2 - 4 X 5 Inch Diamond Bowl Designer Ceramic Pot (any colour)",
+			"productprice": "₹ 249",
+			"regularprice": "₹ 390",
+			"discountdetails": "37% Off"
+		},
+		{
+			"id":33,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOE8AG9WX1674143317_ea3fa36afab23f2fbc7afe53ae0e4db268030987571571d0dc4d3d960d782431.jpg",
+			"title": "8 Inch - Cement Bowl Planter",
+			"productprice": "₹ 119",
+			"regularprice": "₹ 240",
+			"discountdetails": "51% Off"
+		},
+		{
+			"id":34,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOi9KlrEm1674143314_8527a891e224136950ff32ca212b45bc93f69fbb801c3b1ebedac52775f99e61.jpg",
+			"title": "Set of 2 - 4 Inch Blue & Black Glasscoated Matki & Bowl Designer Ceramic Pot",
+			"productprice": "₹ 299",
+			"regularprice": "₹ 689",
+			"discountdetails": "57% Off"
+		},
+		{
+			"id":35,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOLs89vce1674143315_535fa30d7e25dd8a49f1536779734ec8286108d115da5045d77f3b4185d8f790.jpg",
+			"title": "Set of 3 - 4 X 5 Inch Diamond Bowl Designer Ceramic Pot (any colour)",
+			"productprice": "₹ 389",
+			"regularprice": "₹ 599",
+			"discountdetails": "36% Off"
+		},
+		{
+			"id":36,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOGdV7HFZ1674143313_6f4b6612125fb3a0daecd2799dfd6c9c299424fd920f9b308110a2c1fbd8f443.jpg",
+			"title": "4 X 5 Inch Olive Green Diamond Bowl Designer Ceramic Pot",
+			"productprice": "₹ 129",
+			"regularprice": "₹ 260",
+			"discountdetails": "51% Off"
+		},
+		{
+			"id":37,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLObO5MD8i1674143313_2fca346db656187102ce806ac732e06a62df0dbb2829e511a770556d398e1a6e.jpg",
+			"title": "Set of 3 - (4, 5 & 8 ) Blue Designer Bowl Ceramic Planters",
+			"productprice": "₹ 469",
+			"regularprice": "₹ 999",
+			"discountdetails": "54% Off"
+		},
+		{
+			"id":38,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOjN0k3OB1674143311_6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918.jpg",
+			"title": "4 Inch Black Glasscoated Bowl Designer Ceramic Pot",
+			"productprice": "₹ 149",
+			"regularprice": "₹ 339",
+			"discountdetails": "57% Off"
+		},
+		{
+			"id":39,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLO8hrUQ1i1674143312_16dc368a89b428b2485484313ba67a3912ca03f2b2b42429174a4f8b3dc84e44.jpg",
+			"title": "Set of 2 - 5 Inch Bowl Plastic Pot (any colour)",
+			"productprice": "₹ 155",
+			"regularprice": "₹ 310",
+			"discountdetails": "50% Off"
+		},
+		{
+			"id":40,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOICEmZYR1674143311_39fa9ec190eee7b6f4dff1100d6343e10918d044c75eac8f9e9a2596173f80c9.jpg",
+			"title": "Jade Bonsai in 4 Inch Ceramic Bowl (Any Colour)",
+			"productprice": "₹ 419",
+			"regularprice": "₹ 840",
+			"discountdetails": "51% Off"
+		},
+		{
+			"id":41,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOfL3w0Lu1674143306_16dc368a89b428b2485484313ba67a3912ca03f2b2b42429174a4f8b3dc84e44.jpg",
+			"title": "5 Inch Bowl Plastic Pot (any colour)",
+			"productprice": "₹ 79",
+			"regularprice": "₹ 199",
+			"discountdetails": "61% Off"
+		},
+		{
+			"id":42,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOAuvbm0X1674143306_f10d91a7596bf5a6773579ff1306afdc363b0be08602c768907c09261cad3a56.jpg",
+			"title": "8 Inch Black Plastic Nursery Pot",
+			"productprice": "₹ 29",
+			"regularprice": "₹ 69",
+			"discountdetails": "58% Off"
+		},
+		{
+			"id":43,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOQmJ9mz21674143305_f10d91a7596bf5a6773579ff1306afdc363b0be08602c768907c09261cad3a56.jpg",
+			"title": "7 Inch Black Plastic Nursery Pot",
+			"productprice": "₹ 25",
+			"regularprice": "₹ 59",
+			"discountdetails": "58% Off"
+		},
+		{
+			"id":44,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOyRUVbvK1674143304_f10d91a7596bf5a6773579ff1306afdc363b0be08602c768907c09261cad3a56.jpg",
+			"title": "6 Inch Black Plastic Nursery Pot",
+			"productprice": "₹ 15",
+			"regularprice": "₹ 29",
+			"discountdetails": "49% Off"
+		},
+		{
+			"id":45,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLO9tXauJB1674143304_f10d91a7596bf5a6773579ff1306afdc363b0be08602c768907c09261cad3a56.jpg",
+			"title": "4 Inch Black Plastic Nursery Pot",
+			"productprice": "₹ 9",
+			"regularprice": "₹ 19",
+			"discountdetails": "53% Off"
+		},
+		{
+			"id":46,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOzh1i9Ix1674143304_f10d91a7596bf5a6773579ff1306afdc363b0be08602c768907c09261cad3a56.jpg",
+			"title": "5 Inch Black Plastic Nursery Pot",
+			"productprice": "₹ 12",
+			"regularprice": "₹ 29",
+			"discountdetails": "59% Off"
+		},
+		{
+			"id":47,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOwiuCQh61674143303_d6a4031733610bb080d0bfa794fcc9dbdcff74834aeaab7c6b927e21e9754037.jpg",
+			"title": "Black Double Step Stand (3 feet)",
+			"productprice": "₹ 1499",
+			"regularprice": "₹ 3299",
+			"discountdetails": "55% Off"
+		},
+		{
+			"id":48,
+            "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLONCQatkq1674143304_f10d91a7596bf5a6773579ff1306afdc363b0be08602c768907c09261cad3a56.jpg",
+			"title": "16 Inch Black Plastic Nursery Pot",
+			"productprice": "₹ 189",
+			"regularprice": "₹ 429",
+			"discountdetails": "56% Off"
+		}
+	]
+}
