@@ -81,7 +81,6 @@ const Navbar = () => {
     <div style={{
       width:"100%",
       height:"80px",
-      border:"2px solid black",
       display:"flex",
       alignItems:"center",
       justifyContent:"space-between"

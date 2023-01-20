@@ -1,7 +1,12 @@
 import React,{ useState,useEffect  } from 'react';
 import { useSearchParams } from 'react-router-dom'
 import SelectPage from '../Components/Navbar/SelectPage';
-import { Box, SimpleGrid,Text,Button } from '@chakra-ui/react';
+import { Box, SimpleGrid,Text,Button,  Accordion,
+    AccordionItem,
+    AccordionButton,
+    AccordionPanel,
+    AccordionIcon,
+Checkbox } from '@chakra-ui/react';
 import HomeProductCard from '../Components/HomeProductCard';
 
 
@@ -85,15 +90,100 @@ const HomeDecor = () => {
         w="95%"
         h="auto"
         m="auto"
-        border="2px solid black"
         mt="110px"
         display="flex"
+        gap="20px"
         
         >
         <Box className='Filter-section'
         w="20%"
-        border="2px solid black"
-        ></Box>
+        >
+            <Text textAlign="left" ml="5px" fontSize='1.6rem' fontWeight={600} fontFamily="Merriweather">Filter by</Text>
+<Accordion allowToggle>
+  <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box as="span" flex='1' textAlign='left'>
+            <Text textAlign="left" ml="5px" fontSize='18px' fontWeight={600} fontFamily="Merriweather">
+
+          Price
+            </Text>
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4} display="flex" flexDirection="column" gap="10px">
+     <Checkbox fontSize='18px' fontWeight={600} fontFamily="Merriweather">1000-2000</Checkbox>
+     <Checkbox fontSize='18px' fontWeight={600} fontFamily="Merriweather">2000-5000</Checkbox>
+     <Checkbox fontSize='18px' fontWeight={600} fontFamily="Merriweather">500-1000</Checkbox>
+     <Checkbox fontSize='18px' fontWeight={600} fontFamily="Merriweather">Above 5000</Checkbox>
+     <Checkbox fontSize='18px' fontWeight={600} fontFamily="Merriweather">Below 500</Checkbox>
+    </AccordionPanel>
+  </AccordionItem>
+
+  <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box as="span" flex='1' textAlign='left'>
+            <Text textAlign="left" ml="5px" fontSize='18px' fontWeight={600} fontFamily="Merriweather" >
+
+          Discount
+            </Text>
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4} display="flex" flexDirection="column" gap="10px">
+    <Checkbox fontSize='18px' fontWeight={600} fontFamily="Merriweather">0% or more</Checkbox>
+     <Checkbox fontSize='18px' fontWeight={600} fontFamily="Merriweather">10% or more</Checkbox>
+     <Checkbox fontSize='18px' fontWeight={600} fontFamily="Merriweather">20% or more</Checkbox>
+     <Checkbox fontSize='18px' fontWeight={600} fontFamily="Merriweather">30% or more</Checkbox>
+     <Checkbox fontSize='18px' fontWeight={600} fontFamily="Merriweather">40% or more</Checkbox>
+    </AccordionPanel>
+  </AccordionItem>
+  <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box as="span" flex='1' textAlign='left'>
+            <Text textAlign="left" ml="5px" fontSize='18px' fontWeight={600} fontFamily="Merriweather" >
+
+         Category
+            </Text>
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4} display="flex" flexDirection="column" gap="10px">
+    <Checkbox fontSize='18px' fontWeight={600} fontFamily="Merriweather">Accessories</Checkbox>
+     <Checkbox fontSize='18px' fontWeight={600} fontFamily="Merriweather">Baby Care</Checkbox>
+     <Checkbox fontSize='18px' fontWeight={600} fontFamily="Merriweather">Bakery, Cakes & Dairy</Checkbox>
+     <Checkbox fontSize='18px' fontWeight={600} fontFamily="Merriweather">Beauty & Hygine</Checkbox>
+     <Checkbox fontSize='18px' fontWeight={600} fontFamily="Merriweather">Beverages</Checkbox>
+    </AccordionPanel>
+  </AccordionItem>
+  <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box as="span" flex='1' textAlign='left'>
+            <Text textAlign="left" ml="5px" fontSize='18px' fontWeight={600} fontFamily="Merriweather" >
+
+          Time To Ship
+            </Text>
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4} display="flex" flexDirection="column" gap="10px">
+    <Checkbox fontSize='18px' fontWeight={600} fontFamily="Merriweather">0 minutes</Checkbox>
+     <Checkbox fontSize='18px' fontWeight={600} fontFamily="Merriweather">6 minutes</Checkbox>
+     <Checkbox fontSize='18px' fontWeight={600} fontFamily="Merriweather">0 days</Checkbox>
+     <Checkbox fontSize='18px' fontWeight={600} fontFamily="Merriweather">1 day 0 minutes</Checkbox>
+     <Checkbox fontSize='18px' fontWeight={600} fontFamily="Merriweather">2 days 0 minutes</Checkbox>
+    </AccordionPanel>
+  </AccordionItem>
+</Accordion>
+        </Box>
+ 
         <Box className='Products-list' 
           w="80%"
           h="auto"
