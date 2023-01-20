@@ -7,7 +7,7 @@ const SelectPage = () => {
         <div className='Category'
      style={{
         width:"100%",
-        height:"70px",
+        height:"50px",
         display:"flex",
         alignItems:"center",
         justifyContent:"center",
@@ -18,13 +18,13 @@ const SelectPage = () => {
     >
      <div><Link to="/home-decor" ><h1 style={{
         color:"white",
-        fontSize:"25px",
+        fontSize:"22px",
         fontWeight:"700",
         fontFamily:"Merriweather"
      }}>Home Decor</h1></Link>  </div>
      <div><Link to="/products-near-me"><h1 style={{
         color:"white",
-        fontSize:"25px",
+        fontSize:"22px",
         fontWeight:"700",
         fontFamily:"Merriweather"
      }}>Products Near Me</h1></Link></div>   

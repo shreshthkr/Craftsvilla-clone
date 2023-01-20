@@ -5,13 +5,13 @@ import {Box,Image,Text,Button, Heading} from "@chakra-ui/react";
 import {BsHeart} from "react-icons/bs"
 import {RxDoubleArrowDown} from "react-icons/rx"
 import Footer from '../Components/Navbar/Footer';
-const ProductDetail = () => {
+const NearMeProductDetail = () => {
     const {id} = useParams();
     const [productDetail, setProductDetail] = useState([]);
 
 
    useEffect(()=> {
-    fetch(`http://localhost:5000/home-decor/${id}`)
+    fetch(`http://localhost:5000/products-near-me/${id}`)
     .then((res) => res.json())
     .then((res) => setProductDetail(res))
    },[id]);
@@ -75,7 +75,7 @@ const ProductDetail = () => {
             </Text>
             <Text fontSize="28px" fontWeight={400} color="gray.500" fontFamily="Merriweather" textDecoration="line-through">{regularprice}</Text>
             <Text  fontSize="15px" fontWeight={400} fontFamily="Merriweather" color="rgb(144,39,53)">
-                ({discountdetails})
+                {discountdetails}
             </Text>
                 </Box>
             <Box
@@ -133,7 +133,7 @@ const ProductDetail = () => {
         </Box>
         <Box>
             <Text>
-                Product Specifications
+           
             </Text>
         </Box>
         <Box
@@ -145,4 +145,4 @@ const ProductDetail = () => {
   )
 }
 
-export default ProductDetail;
+export default NearMeProductDetail;
