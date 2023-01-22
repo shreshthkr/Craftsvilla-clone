@@ -1,9 +1,8 @@
 import { Heading,SimpleGrid,Box,Image} from '@chakra-ui/react';
 import React from 'react'
-import { Link } from 'react-router-dom';
 import Caraousel from '../Components/Navbar/Caraousel';
 import Footer from '../Components/Navbar/Footer';
-import SelectPage from '../Components/Navbar/SelectPage';
+
 
 
 
@@ -35,19 +34,19 @@ const Home = () => {
         }}>
         <SimpleGrid columns={[1, 3, 5]} spacing='10px'>
   <Box bg='tomato' height='80px'>
-    <Image src="https://cdn.plotch.io/image/upload/C/V/1671109983_Mi5wbmc=.png" alt="Home Decor" />
+    <Image src="https://cdn.plotch.io/image/upload/C/V/1671109983_Mi5wbmc=.png" alt="Home Decor" cursor="pointer" />
   </Box>
   <Box bg='tomato' height='80px'>
-  <Image src="https://cdn.plotch.io/image/upload/C/V/1671109989_My5wbmc=.png" alt="Tote bags" />
+  <Image src="https://cdn.plotch.io/image/upload/C/V/1671109989_My5wbmc=.png" alt="Tote bags" cursor="pointer" />
   </Box>
   <Box bg='tomato' height='80px'>
-  <Image src="https://cdn.plotch.io/image/upload/C/V/1671109994_NC5wbmc=.png" alt="Kitchen ware" />
+  <Image src="https://cdn.plotch.io/image/upload/C/V/1671109994_NC5wbmc=.png" alt="Kitchen ware" cursor="pointer" />
   </Box>
   <Box bg='tomato' height='80px'>
-  <Image src="https://cdn.plotch.io/image/upload/C/V/1671109999_NS5wbmc=.png" alt="Ceramic Mug" />
+  <Image src="https://cdn.plotch.io/image/upload/C/V/1671109999_NS5wbmc=.png" alt="Ceramic Mug" cursor="pointer" />
   </Box>
   <Box bg='tomato' height='80px'>
-  <Image src="https://cdn.plotch.io/image/upload/C/V/1671110006_Ni5wbmc=.png" alt="Idols" />
+  <Image src="https://cdn.plotch.io/image/upload/C/V/1671110006_Ni5wbmc=.png" alt="Idols" cursor="pointer" />
   </Box>
 </SimpleGrid>
         </div>
@@ -76,11 +75,11 @@ const Home = () => {
    
    columns={{sm:null, md:3, lg:5}}>
 
-      <Image ml="40px"  w="250px" h="120px" src="https://cdn.plotch.io/image/upload/C/V/1660916598_MS5wbmc=.png" />
-      <Image ml="40px"  w="250px" h="120px" src="https://cdn.plotch.io/image/upload/C/V/1660916607_Mi5wbmc=.png" />
-      <Image ml="40px"  w="250px" h="120px" src="https://cdn.plotch.io/image/upload/C/V/1660916612_My5wbmc=.png" />
-      <Image ml="40px"  w="250px" h="120px" src="https://cdn.plotch.io/image/upload/C/V/1660916617_NC5wbmc=.png" />
-      <Image ml="40px" w="250px" h="120px" src="https://cdn.plotch.io/image/upload/C/V/1660916629_NS5wbmc=.png" />
+      <Image ml="40px"  w="250px" h="120px" src="https://cdn.plotch.io/image/upload/C/V/1660916598_MS5wbmc=.png" alt="On Time" cursor="pointer" />
+      <Image ml="40px"  w="250px" h="120px" src="https://cdn.plotch.io/image/upload/C/V/1660916607_Mi5wbmc=.png" alt="100% quality" cursor="pointer" />
+      <Image ml="40px"  w="250px" h="120px" src="https://cdn.plotch.io/image/upload/C/V/1660916612_My5wbmc=.png" alt="Easy Customer" cursor="pointer" />
+      <Image ml="40px"  w="250px" h="120px" src="https://cdn.plotch.io/image/upload/C/V/1660916617_NC5wbmc=.png" alt="Secured and Safe" cursor="pointer" />
+      <Image ml="40px" w="250px" h="120px" src="https://cdn.plotch.io/image/upload/C/V/1660916629_NS5wbmc=.png" alt="Multiple Payment" cursor="pointer" />
    </SimpleGrid>
     <br />
     <br />
@@ -92,21 +91,16 @@ const Home = () => {
         <SimpleGrid
         spacing="10"
          columns={{sm:1, md:2, lg:2}}>
-            <Box><Image src="https://cdn.plotch.io/image/upload/C/V/1671110234_SG9tZWRlY29yLnBuZw==.png" w="50" /></Box>
-            <Box><Image src="https://cdn.plotch.io/image/upload/C/V/1671110241_NS5wbmc=.png" /></Box>
-            <Box><Image src="https://cdn.plotch.io/image/upload/C/V/1671110248_Ni5wbmc=.png" /></Box>
-            <Box><Image src="https://cdn.plotch.io/image/upload/C/V/1671110264_My5wbmc=.png" /></Box>
+            <Box><Image src="https://cdn.plotch.io/image/upload/C/V/1671110234_SG9tZWRlY29yLnBuZw==.png" w="50" cursor="pointer" /></Box>
+            <Box><Image src="https://cdn.plotch.io/image/upload/C/V/1671110241_NS5wbmc=.png" cursor="pointer" /></Box>
+            <Box><Image src="https://cdn.plotch.io/image/upload/C/V/1671110248_Ni5wbmc=.png" cursor="pointer" /></Box>
+            <Box><Image src="https://cdn.plotch.io/image/upload/C/V/1671110264_My5wbmc=.png" cursor="pointer" /></Box>
         </SimpleGrid>
       </Box>
   <Box mt={{sm:220, md:220, lg:160}} h="auto">
     <Footer />
   </Box>
-  <Box>
-      <br />
-      <br />
-      <br />
-      <br />
-      </Box>
+ 
     </>
   )
 }

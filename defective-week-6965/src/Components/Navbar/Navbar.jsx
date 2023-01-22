@@ -111,17 +111,17 @@ const Navbar = () => {
         marginLeft:"15px"
       }}
       >
-      <Stack spacing={4} w='90%'>
+      <Stack spacing={4}  w={{sm:0, md:0, lg:"90%"}}>
   <InputGroup>
-    <InputLeftAddon children='SEARCH' h='45px' w='90px'  />
+    <InputLeftAddon fontFamily="Merriweather" children='SEARCH' h='45px' w='90px'  />
     <Input type='text' placeholder='Search' bgColor="rgb(237,242,247)"  h='45px' />
-      <InputRightAddon children={<SearchIcon />} h='45px'  />
+      <InputRightAddon children={<SearchIcon />} h='45px' cursor="pointer"  />
   </InputGroup>
 
   
 </Stack>
 <div>
-<IoLocationSharp size="1.5rem" />
+<IoLocationSharp size="1.5rem" cursor="pointer" />
 </div>
 
       </div>
@@ -146,7 +146,7 @@ const Navbar = () => {
     <FaUser size="1rem"/>
     </div>
 
-  <Text onClick={onOpen} fontSize="15px" >
+  <Text onClick={onOpen} fontSize="18px" fontFamily="Merriweather" >
           
    Sign In/Register
   </Text>
@@ -155,9 +155,9 @@ const Navbar = () => {
   {({ isOpen }) => (
     <>
       <MenuButton isActive={isOpen} 
-      as={Button} bgColor="transparent"
+      as={Button} bgColor="white"
        rightIcon={!isOpen ?( <ChevronDownIcon />) : (<ChevronUpIcon />)}
-       fontSize="20px"
+       fontSize="20px" fontFamily="Merriweather"
        >
         My Account
       </MenuButton>
@@ -325,7 +325,7 @@ const Navbar = () => {
         <div>
           <Link to="/wishlist">
 
-          <Text fontSize="18px">WishList</Text>
+          <Text fontSize="18px" fontFamily="Merriweather">WishList</Text>
           </Link>
           </div>
         |
@@ -346,7 +346,7 @@ const Navbar = () => {
         </div>
       <div>
         <Link to="/cart">
-      <Text fontSize="18px">Cart</Text>
+      <Text fontSize="19px" fontFamily="Merriweather">Cart</Text>
         </Link>
       </div>
       </div>

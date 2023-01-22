@@ -8,6 +8,7 @@ import { Box, useToast,Text,Button,  Accordion,
 Checkbox } from '@chakra-ui/react';
 import NearMeProductCard from './NearMeProductCard';
 import axios from "axios";
+import Footer from '../Components/Navbar/Footer';
 
 const getCurrentPageUrl = (value) => {
     value = Number(value);
@@ -224,10 +225,13 @@ const ProuctsNearMe = () => {
         </Box>
            
         </Box>
-        <Box>
-            <Button disabled={page===1} onClick={() => setPage(page-1)} >PREV</Button>
+        <Box mt="30px" mb="30px">
+            <Button disabled={page===1} onClick={() => setPage(page-1)} bgColor="rgb(144,39,53)" color="white" >PREV</Button>
             <Button disabled>{page}</Button>
-            <Button disabled={page===4} onClick={() => setPage(page+1)}>NEXT</Button>
+            <Button disabled={page===4} onClick={() => setPage(page+1)} bgColor="rgb(144,39,53)" color="white">NEXT</Button>
+        </Box>
+        <Box>
+          <Footer />
         </Box>
     </div>
   )

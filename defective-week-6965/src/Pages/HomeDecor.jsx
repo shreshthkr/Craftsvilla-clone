@@ -9,6 +9,7 @@ import { Box,Text,Button,  Accordion,
 Checkbox,
 useToast } from '@chakra-ui/react';
 import HomeProductCard from '../Components/HomeProductCard';
+import Footer from '../Components/Navbar/Footer';
 
 
 const getCurrentPageUrl = (value) => {
@@ -39,19 +40,25 @@ const HomeDecor = () => {
    )
    const [orderBy, setOrderBy] = useState("");
    const [cart, setCart] = useState([]);
-   const [itemAdded, setItemAdded] = useState(false)
    const limit=9;
    const sort = "regularprice";
    const toast = useToast();
 
 
    useEffect(() => {
+
    let apiUrl = getUrl(`http://localhost:5000/home-decor/?_page=${page}&limit=${limit}`,
    sort,
    orderBy)
    fetch(apiUrl)
    .then((res) => res.json())
-   .then((json)=> setData(json))
+   .then((json)=> 
+    setData(json)
+  
+  )
+  .catch(error => {
+    console.log(error)
+  })
    },[page, orderBy]);
 
 
@@ -92,7 +99,9 @@ const HomeDecor = () => {
 
 
   return (
+    
     <div>
+  
         <Box>
       
         </Box>
@@ -102,7 +111,6 @@ const HomeDecor = () => {
         mt="50px"
         mb="-100px"
         gap="20px"
-
         >
             <Text fontFamily="Merriweather" fontSize="20px">Sort By: Popular  |</Text>
           
@@ -234,12 +242,17 @@ const HomeDecor = () => {
         </Box>
            
         </Box>
-        <Box mt="20px">
+        <Box mt="30px" mb="30px">
             <Button disabled={page===1} onClick={() => setPage(page-1)} bgColor="rgb(144,39,53)" color="white" >PREV</Button>
             <Button disabled>{page}</Button>
             <Button disabled={page===4} onClick={() => setPage(page+1)} bgColor="rgb(144,39,53)" color="white">NEXT</Button>
         </Box>
+        <Box>
+          <Footer />
+        </Box>
+      
     </div>
+    
   )
 }
 
