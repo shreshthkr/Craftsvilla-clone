@@ -1,20 +1,26 @@
 import React,{useState, useEffect} from 'react';
 import { useParams } from 'react-router-dom';
 import SelectPage from '../Components/Navbar/SelectPage';
-import {Box,Image,Text,Button, Heading} from "@chakra-ui/react";
+import {Box,Image,Text,Button} from "@chakra-ui/react";
 import {BsHeart} from "react-icons/bs"
 import {RxDoubleArrowDown} from "react-icons/rx"
 import Footer from '../Components/Navbar/Footer';
+
+
 const NearMeProductDetail = () => {
     const {id} = useParams();
     const [productDetail, setProductDetail] = useState([]);
-
-
+  
    useEffect(()=> {
     fetch(`http://localhost:5000/products-near-me/${id}`)
     .then((res) => res.json())
     .then((res) => setProductDetail(res))
    },[id]);
+
+
+ 
+   
+
 
     const Day = Math.floor(Math.random()*10)
     const Hour =  Math.floor((Math.random()*100)/60)
@@ -126,7 +132,7 @@ const NearMeProductDetail = () => {
              display="flex"
             alignItems="center"
             justifyContent="space-between">
-                <Button w="46%" fontFamily=" Montserrat Regular !important" bgColor="rgb(144,39,53)" color="white">ADD TO CART</Button>
+                <Button w="46%" fontFamily=" Montserrat Regular !important" bgColor="rgb(144,39,53)" color="white" >ADD TO CART</Button>
                 <Button w="50%" fontFamily=" Montserrat Regular !important" bgColor="rgb(144,39,53)" color="white">BUY NOW</Button>
             </Box>
            </Box>

@@ -14,7 +14,7 @@ const NearMeProductCard = ({product,AddToCart,buttontext}) => {
         {product?.map((productItem, productIndex)=> (
         <Box boxShadow= "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px" key={productItem.id}>
             <Box  >
-                <Link to={`/home-decor/${productItem.id}`}>
+                <Link to={`/products-near-me/${productItem.id}`}>
 
                 <Image src={productItem.image} alt={productItem.title} w="95%" m="auto"/>
                 </Link>

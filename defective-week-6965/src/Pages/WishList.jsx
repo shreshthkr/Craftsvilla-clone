@@ -1,10 +1,13 @@
 import React from 'react'
 import {Box,Text} from "@chakra-ui/react"
+import Footer from '../Components/Navbar/Footer';
 
 const WishList = () => {
   return (
     <div>
-      <Box w="80%"
+      <Box
+       w="80%"
+       h="600px"
       margin="auto"
       mt="20px">
 
@@ -16,6 +19,9 @@ const WishList = () => {
       <Box>
         <Text fontSize="18px" fontWeight="600" fontFamily="Merriweather" textAlign="center">Nothing Wishlisted!!!</Text>
       </Box>
+      </Box>
+      <Box>
+        <Footer />
       </Box>
     </div>
   )

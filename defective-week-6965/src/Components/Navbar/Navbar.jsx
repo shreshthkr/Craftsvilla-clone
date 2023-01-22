@@ -111,17 +111,17 @@ const Navbar = () => {
         marginLeft:"15px"
       }}
       >
-      <Stack spacing={4} w='90%'>
+      <Stack spacing={4}  w={{sm:0, md:0, lg:"90%"}}>
   <InputGroup>
     <InputLeftAddon children='SEARCH' h='45px' w='90px'  />
     <Input type='text' placeholder='Search' bgColor="rgb(237,242,247)"  h='45px' />
-      <InputRightAddon children={<SearchIcon />} h='45px'  />
+      <InputRightAddon children={<SearchIcon />} h='45px' cursor="pointer"  />
   </InputGroup>
 
   
 </Stack>
 <div>
-<IoLocationSharp size="1.5rem" />
+<IoLocationSharp size="1.5rem" cursor="pointer" />
 </div>
 
       </div>

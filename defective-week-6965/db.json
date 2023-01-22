@@ -675,5 +675,28 @@
       "id": 48
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "data": {
+        "id": 1,
+        "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOxhnCp801674143435_aeadb13cae8b0daaea20e70d344de7d952cc175ac9a12951232fd9b8345ab883.jpg",
+        "title": "Revluk Anti Hair Loss Hair Oil 100ML for Hair Growth & Hair Fall Control",
+        "productprice": "225",
+        "regularprice": "250",
+        "discountdetails": "10% Off"
+      },
+      "qunatity": 1,
+      "id": 1
+    },
+    {
+      "data": {
+        "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOA81wCuO1674207763_a5bb3edc4a938fc39c0d21bf98e7bf6af46d7adb669c5aebefcf2469823b9db2.jpg",
+        "title": "Aashirvaad Chilli Powder 16 gm",
+        "productprice": "19",
+        "id": 3
+      },
+      "qunatity": 1,
+      "id": 2
+    }
+  ]
 }
