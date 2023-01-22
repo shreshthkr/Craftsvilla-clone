@@ -1,12 +1,13 @@
 import React,{ useState,useEffect  } from 'react';
+import axios from "axios";
 import { useSearchParams } from 'react-router-dom'
-import SelectPage from '../Components/Navbar/SelectPage';
-import { Box, SimpleGrid,Text,Button,  Accordion,
+import { Box,Text,Button,  Accordion,
     AccordionItem,
     AccordionButton,
     AccordionPanel,
     AccordionIcon,
-Checkbox } from '@chakra-ui/react';
+Checkbox,
+useToast } from '@chakra-ui/react';
 import HomeProductCard from '../Components/HomeProductCard';
 
 
@@ -37,8 +38,12 @@ const HomeDecor = () => {
     getCurrentPageUrl(searchParams.get("page")) || 1
    )
    const [orderBy, setOrderBy] = useState("");
+   const [cart, setCart] = useState([]);
+   const [itemAdded, setItemAdded] = useState(false)
    const limit=9;
    const sort = "regularprice";
+   const toast = useToast();
+
 
    useEffect(() => {
    let apiUrl = getUrl(`http://localhost:5000/home-decor/?_page=${page}&limit=${limit}`,
@@ -58,16 +63,38 @@ const HomeDecor = () => {
     setSearchParams(paramObj)
    },[page, orderBy]);
 
-
-
+ 
   
 
+
+  const addToCart = (data) => {
+   
+     return axios.post(`http://localhost:5000/cart`,{
+      data:data,
+      qunatity:1
+     })
+     .then((res) => {
+           setCart([...cart,res.data.data]);
+           toast({
+            title: 'Successfull',
+            description: "Item added to cart",
+            status: 'success',
+            duration: 4000,
+            isClosable: true,
+          })
+     })
+     .catch((err) => {
+      console.log(err)
+     })
+  }
+  
+    
 
 
   return (
     <div>
         <Box>
-        <SelectPage />
+      
         </Box>
         <Box 
         display="flex"
@@ -189,35 +216,28 @@ const HomeDecor = () => {
           h="auto"
           alignItems="right"
         >
-            <SimpleGrid 
-             columns={[1, 2, 4]}
-             spacing={10}
-             alignItems="right"
-            >
+            
 
-            {data?.map((el)=>(
-                <Box key={el.id}>
+        
+                <Box >
                 
                 <HomeProductCard
-                id={el.id}
-                img={el.image}
-                title={el.title}
-                productprice={el.productprice}
-            regularprice={el.regularprice}
-            discountdetails={el.discountdetails}
-            buttontext="Add to cart"
-            
+                product={data}
+                AddToCart={addToCart}
+                buttontext="Add To Cart" 
+
+                
             />
             </Box>
-            ))}
-              </SimpleGrid>
+       
+            
         </Box>
            
         </Box>
-        <Box>
-            <Button disabled={page===1} onClick={() => setPage(page-1)} >PREV</Button>
+        <Box mt="20px">
+            <Button disabled={page===1} onClick={() => setPage(page-1)} bgColor="rgb(144,39,53)" color="white" >PREV</Button>
             <Button disabled>{page}</Button>
-            <Button disabled={page===4} onClick={() => setPage(page+1)}>NEXT</Button>
+            <Button disabled={page===4} onClick={() => setPage(page+1)} bgColor="rgb(144,39,53)" color="white">NEXT</Button>
         </Box>
     </div>
   )

@@ -96,7 +96,8 @@ const Navbar = () => {
       }}
       >
       <div className='logo'>
-        <img width="180px" src="https://img.plotch.store/assets/MTY2MjQ1MDUwM181MjA1.png" alt="craftsvilla_logo" />
+        <Link to="/">
+        <img width="180px" src="https://img.plotch.store/assets/MTY2MjQ1MDUwM181MjA1.png" alt="craftsvilla_logo" /></Link>
       </div>
       
       <div className='input-tag'

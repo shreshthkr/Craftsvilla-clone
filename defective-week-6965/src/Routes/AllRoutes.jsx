@@ -7,6 +7,7 @@ import ProductDetail from '../Pages/ProductDetail';
 import ProductsNearMe from '../Pages/ProductsNearMe';
 import WishList from '../Pages/WishList';
 import NearMeProductDetail from '../Pages/NearMeProductDetail';
+import Checkout from '../Pages/Checkout';
 
 const AllRoutes = () => {
   return (
@@ -16,9 +17,9 @@ const AllRoutes = () => {
         <Route path="/cart" element={<Cart />} />
         <Route path="/home-decor" element={<HomeDecor />} />
         <Route path="/products-near-me" element={<ProductsNearMe />} />
+        <Route path="/checkout" element={<Checkout />} />
         <Route path="/home-decor/:id" element={<ProductDetail />} />
         <Route path="/products-near-me/:id" element={<NearMeProductDetail />} />
-
     </Routes>
   )
 }

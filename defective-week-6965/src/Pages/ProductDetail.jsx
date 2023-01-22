@@ -1,7 +1,6 @@
 import React,{useState, useEffect} from 'react';
 import { useParams } from 'react-router-dom';
-import SelectPage from '../Components/Navbar/SelectPage';
-import {Box,Image,Text,Button, Heading} from "@chakra-ui/react";
+import {Box,Image,Text,Button} from "@chakra-ui/react";
 import {BsHeart} from "react-icons/bs"
 import {RxDoubleArrowDown} from "react-icons/rx"
 import Footer from '../Components/Navbar/Footer';
@@ -24,7 +23,6 @@ const ProductDetail = () => {
 
   return (
     <div>
-        <SelectPage />
         <Box 
         w="80%"
         h="auto"
@@ -71,7 +69,7 @@ const ProductDetail = () => {
             gap="10px"
             ><Text textAlign="left" color="rgb(252,177,55)"  fontSize="28px" fontWeight={500} fontFamily="Montserrat Regular !important">
 
-                {productprice}
+               ₹{productprice}
             </Text>
             <Text fontSize="28px" fontWeight={400} color="gray.500" fontFamily="Merriweather" textDecoration="line-through">{regularprice}</Text>
             <Text  fontSize="15px" fontWeight={400} fontFamily="Merriweather" color="rgb(144,39,53)">
@@ -132,9 +130,7 @@ const ProductDetail = () => {
            </Box>
         </Box>
         <Box>
-            <Text>
-                Product Specifications
-            </Text>
+           
         </Box>
         <Box
         mt="150px"
