@@ -30,7 +30,7 @@ const NearMeProductDetail = () => {
 
   return (
     <div>
-        <SelectPage />
+       
         <Box 
         w="80%"
         h="auto"

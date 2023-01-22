@@ -46,12 +46,19 @@ const HomeDecor = () => {
 
 
    useEffect(() => {
+
    let apiUrl = getUrl(`http://localhost:5000/home-decor/?_page=${page}&limit=${limit}`,
    sort,
    orderBy)
    fetch(apiUrl)
    .then((res) => res.json())
-   .then((json)=> setData(json))
+   .then((json)=> 
+    setData(json)
+  
+  )
+  .catch(error => {
+    console.log(error)
+  })
    },[page, orderBy]);
 
 
@@ -92,7 +99,9 @@ const HomeDecor = () => {
 
 
   return (
+    
     <div>
+  
         <Box>
       
         </Box>
@@ -102,7 +111,6 @@ const HomeDecor = () => {
         mt="50px"
         mb="-100px"
         gap="20px"
-
         >
             <Text fontFamily="Merriweather" fontSize="20px">Sort By: Popular  |</Text>
           
@@ -242,7 +250,9 @@ const HomeDecor = () => {
         <Box>
           <Footer />
         </Box>
+      
     </div>
+    
   )
 }
 

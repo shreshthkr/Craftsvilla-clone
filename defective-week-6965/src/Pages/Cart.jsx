@@ -127,11 +127,11 @@ const removeItem = (id) => {
           justifyContent="space-around"
           >
              <Button borderRadius="100%"  fontSize="2rem" 
-          color="rgb(144,39,53)" variant='outline' w="5px" colorScheme='rgb(144,39,53)'
-          disabled={quantity===1} onClick={() => handleDataChange(item.id,-1)}>-</Button>
+          color="rgb(144,39,53)" variant='outline' width="5px" colorScheme='rgb(144,39,53)'
+           onClick={() => handleDataChange(item.id,-1)} disabled={item.quantity===1}>-</Button>
         
              <Text>{item.qunatity}</Text>
-             <Button borderRadius="100%" w="10%" disabled={quantity===10} onClick={() => handleDataChange(item.id,1)}
+             <Button borderRadius="100%" w="10%" disabled={item.quantity===10} onClick={() => handleDataChange(item.id,1)}
            fontSize="2rem" color="rgb(144,39,53)" variant='outline' colorScheme='rgb(144,39,53)'
           >+</Button>
           </Box>
