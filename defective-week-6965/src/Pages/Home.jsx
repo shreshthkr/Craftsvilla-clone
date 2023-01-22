@@ -17,7 +17,6 @@ const Home = () => {
     <>
     <div>
     <Box>
-        <SelectPage />
     </Box>
     <div className='ShopByCategory' style={{
         width:"100%",
