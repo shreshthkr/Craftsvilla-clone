@@ -609,5 +609,26 @@
       "id": 48
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "data": {
+        "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOehLrOwK1672337846_68c331f03f4c1a3e97a1556f3d01b7a3bf4468bdae81a6354f075d22ad3118dc.jpg",
+        "title": "Ganeshji On elephant Face-12*6.5*16.5 Inches (BS424)",
+        "productprice": "27260",
+        "id": 12
+      },
+      "qunatity": 1,
+      "id": 1
+    },
+    {
+      "data": {
+        "image": "https://cdn.plotch.io/image/upload/w_301,h_301/C/V/PLOtLXLIOr1672152505_a55e58991c9716a81e46b32c1a4c600f784093d05f482b5020509f704f546f9e.jpg",
+        "title": "Brass Showpiece Krishna Statue - 6.5*5*20 Inch (BS1015 E)",
+        "productprice": " 13780",
+        "id": 1
+      },
+      "qunatity": 1,
+      "id": 2
+    }
+  ]
 }
