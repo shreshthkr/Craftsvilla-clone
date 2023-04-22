@@ -42,7 +42,7 @@ const ProuctsNearMe = () => {
    const sort = "productprice";
    const toast = useToast();
    useEffect(() => {
-   let apiUrl = getUrl(`http://localhost:5000/products-near-me/?_page=${page}&limit=${limit}`,
+   let apiUrl = getUrl(`https://craftsvilla-backend.onrender.com/products-near-me/?_page=${page}&limit=${limit}`,
    sort,
    orderBy)
    fetch(apiUrl)
@@ -62,7 +62,7 @@ const ProuctsNearMe = () => {
 
    const addToCart = (data) => {
    
-    return axios.post(`http://localhost:5000/cart`,{
+    return axios.post(`https://craftsvilla-backend.onrender.com/cart`,{
      data,
      qunatity:1
     })

@@ -12,7 +12,7 @@ const NearMeProductDetail = () => {
     const [productDetail, setProductDetail] = useState([]);
   
    useEffect(()=> {
-    fetch(`http://localhost:5000/products-near-me/${id}`)
+    fetch(`https://craftsvilla-backend.onrender.com/products-near-me/${id}`)
     .then((res) => res.json())
     .then((res) => setProductDetail(res))
    },[id]);

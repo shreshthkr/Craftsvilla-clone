@@ -47,7 +47,7 @@ const HomeDecor = () => {
 
    useEffect(() => {
 
-   let apiUrl = getUrl(`http://localhost:5000/home-decor/?_page=${page}&limit=${limit}`,
+   let apiUrl = getUrl(`https://craftsvilla-backend.onrender.com/home-decor/?_page=${page}&limit=${limit}`,
    sort,
    orderBy)
    fetch(apiUrl)
@@ -76,7 +76,7 @@ const HomeDecor = () => {
 
   const addToCart = (data) => {
    
-     return axios.post(`http://localhost:5000/cart`,{
+     return axios.post(`https://craftsvilla-backend.onrender.com/cart`,{
       data:data,
       qunatity:1
      })

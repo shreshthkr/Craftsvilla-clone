@@ -9,7 +9,7 @@ const ProductDetail = () => {
   const [productDetail, setProductDetail] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/home-decor/${id}`)
+    fetch(`https://craftsvilla-backend.onrender.com/home-decor/${id}`)
       .then((res) => res.json())
       .then((res) => setProductDetail(res));
   }, [id]);

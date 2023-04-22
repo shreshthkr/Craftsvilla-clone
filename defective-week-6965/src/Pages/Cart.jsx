@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 import {MdDelete} from "react-icons/md";
 
    const getCartProducts = () => {
-    return axios.get(`http://localhost:5000/cart`)
+    return axios.get(`https://craftsvilla-backend.onrender.com/cart`)
    }
 
 
@@ -39,7 +39,7 @@ navigate(path)
 }
 
 const removeItem = (id) => {
-  axios.delete(`http://localhost:5000/cart/${id}`)
+  axios.delete(`https://craftsvilla-backend.onrender.com/cart/${id}`)
   .then((res)=> setCartItem(res.data))
   .catch((err) => {
     console.log(err);
